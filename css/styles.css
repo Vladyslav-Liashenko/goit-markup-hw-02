@@ -101,6 +101,12 @@ header {
     background: #2E2F42;
 }
 h1 {
+    position: absolute;
+    width: 500px;
+    height: 120px;
+    left: 473px;
+    top: 260px;
+
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 700;
@@ -111,6 +117,7 @@ h1 {
     color: #FFFFFF;
 }
 .order {
+    position: absolute;
     width: 169px;
     height: 56px;
     left: 636px;
@@ -144,7 +151,12 @@ p {
     order: 1;
     flex-grow: 0;
 }
-h2 {
+.what {
+    width: 350px;
+    height: 40px;
+    margin-left: 559px;
+    margin-top: 240px;
+
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 700;
@@ -174,4 +186,17 @@ h2 {
     left: 0px;
     top: 1548px;
     background: #F4F4FD;
+}
+.section1 {
+    box-sizing: border-box;
+    width: 1128px;
+    height: 104px;
+    margin-left: 156px;
+    padding-top: 120px;
+}
+.section_m {
+    display: inline-block;
+    width: 264px;
+    height: 104px;
+    gap: 8px;
 }
