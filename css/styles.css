@@ -169,11 +169,11 @@ p {
 .margin_p {
     font-family: 'Roboto';
     font-style: normal;
-    font-weight: 500;
-    font-size: 20px;
+    font-weight: 400;
+    font-size: 16px;
     line-height: 24px;
     letter-spacing: 0.02em;
-    color: #2E2F42;
+    color: #434455;
     flex: none;
     order: 0;
     flex-grow: 0;
@@ -312,7 +312,7 @@ p {
 }
 .all_img {
     box-sizing: border-box;
-    width: 1200px;
+    width: 1400px;
     margin-left: 120px;
 }
 .block_img {
@@ -321,6 +321,7 @@ p {
     height: 420px;
     left: 156px;
     margin-top: 48px;
+    margin-right: 10px;
     background: #FFFFFF;
     border: 1px solid #E7E9FC;
 }
