@@ -10,6 +10,7 @@ li {
 }
 header {
     box-sizing: border-box;
+    border-bottom: 1px solid #E7E9FC;
 }
 .webstudio{
     display: flex;
@@ -152,6 +153,32 @@ p {
     order: 1;
     flex-grow: 0;
 }
+.margin_h3{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    color: #2E2F42;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    padding-left: 15px;
+}
+.margin_p {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    color: #2E2F42;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    padding-left: 15px;
+}
 .what {
     width: 350px;
     height: 40px;
@@ -238,14 +265,22 @@ p {
     margin-right: 24px;
     text-align: center;
     background-color: #FFFFFF;
-
 }
-footer{
+.footer {
     position: absolute;
     width: 1440px;
     height: 310px;
     left: 0px;
     top: 2280px;
+    background: #2E2F42;
+    border-radius: 0px 0px 4px 4px;
+}
+.footer1 {
+    position: absolute;
+    width: 1440px;
+    height: 310px;
+    left: 0px;
+    top: 1764px;
     background: #2E2F42;
     border-radius: 0px 0px 4px 4px;
 }
@@ -268,4 +303,50 @@ footer{
 .foot_li {
     margin-top: 120px;
     margin-left: 120px;
+}
+.filter {
+    box-sizing: border-box;
+    margin-top: 96px;
+    margin-left: 427px;
+    color: #4D5AE5;
+}
+.all_img {
+    box-sizing: border-box;
+    width: 1200px;
+    margin-left: 120px;
+}
+.block_img {
+    display: inline-block;
+    width: 360px;
+    height: 420px;
+    left: 156px;
+    margin-top: 48px;
+    background: #FFFFFF;
+    border: 1px solid #E7E9FC;
+}
+button {
+    border: 0;
+    padding: 0%;
+    font-size: 16px;
+    line-height: 24px;
+    padding: 12px 12px;
+    margin-right: 24px;
+    color: #4D5AE5;
+    background: #F4F4FD;
+    border: 1px solid #E7E9FC;
+    border-radius: 4px;
+}
+button:hover {
+    border: 0;
+    padding: 0%;
+    background: #404BBF;
+    color: #ffffff;
+    padding: 12px 12px;
+    border: 1px solid #404BBF;
+}
+.position {
+    display: inline-block;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
 }
