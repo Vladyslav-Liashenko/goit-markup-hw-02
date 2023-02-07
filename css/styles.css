@@ -16,9 +16,7 @@ header {
     border-bottom: 1px solid #E7E9FC;
 }
 .webstudio{
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
+    display: inline-block;
     padding: 0px;
     width: 115px;
     height: 24px;
@@ -27,6 +25,7 @@ header {
     text-decoration: none;
 }
 .web {
+    display: inline-block;
     font-family: 'Raleway';
     font-style: normal;
     font-weight: 800;
@@ -35,6 +34,7 @@ header {
     color: #4D5AE5;
 }
 .studio {
+    display: inline-block;
     font-family: 'Raleway';
     font-style: normal;
     font-weight: 800;
@@ -42,28 +42,39 @@ header {
     line-height: 1.5;
     color: #2E2F42;
 }
+nav{
+display: inline-block;
+}
 .menu_nav {
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
+    display: inline-block;
     gap: 40px;
-
-    font-style: normal;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
-    position: absolute;
     width: 261px;
     height: 24px;
     left: 347px;
     top: 24px;
     color: #2E2F42;
 }
+.studio_nav {
+    float: left;
+    margin-right: 40px;
+}
+.portfolio_nav {
+    float: left;
+    margin-right: 40px;
+}
+
+address {
+    display: inline-block;
+}
+.contact_date {
+    display: inline-block;
+}
 .email {
-    position: fixed;
-    width: 153px;
-    height: 24px;
-    left: 940px;
+    margin-left: 322px;
+    display: inline-block;
     top: 40px;
     font-style: normal;
     font-weight: 400;
@@ -73,10 +84,7 @@ header {
     color: #434455;
 }
 .tel {
-    position: fixed;
-    width: 151px;
-    height: 24px;
-    left: 1133px;
+    display: inline-block;
     top: 40px;
     font-style: normal;
     font-weight: 400;
