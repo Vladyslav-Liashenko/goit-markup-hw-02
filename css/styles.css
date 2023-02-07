@@ -313,6 +313,7 @@ button {
     background: #F4F4FD;
     border: 1px solid #E7E9FC;
     border-radius: 4px;
+    font-family: 'Roboto';
 }
 button:hover {
     border: 0;
@@ -322,6 +323,7 @@ button:hover {
     padding: 12px 12px;
     border: 1px solid #404BBF;
     cursor: pointer;
+    font-family: 'Roboto';
 }
 .position {
     display: inline-block;
