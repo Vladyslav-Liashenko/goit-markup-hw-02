@@ -131,6 +131,7 @@ h1 {
     font-family: 'Roboto';
 }
 h3 {
+    margin-top: 0px;
     font-style: normal;
     font-weight: 500;
     line-height: 1.5;
